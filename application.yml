@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-ai-mcp
+  ai:
+    mcp:
+      server:
+        name: test-mcp-server
+        version: 0.1.0
+        enabled: true
+        type: SYNC
+        sse-endpoint: /sse
+        capabilities:
+          tool: true
+
+server:
+  port: 8081
+
+
